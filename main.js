@@ -64,14 +64,13 @@ document.write(tenName[9] + "<br />");
 for (let i=1; i<=9; i++) {
 document.write(tenName[9] + oneName[i] + "<br />");
 } 
-
 // hundred
 document.write(hundredName[1] + "<br />");
-
 // //101-109
 // for (let i=1; i<=9; i++) {
 // document.write(hundredName[1] + oneName[i] + "<br />");
 // }
+
 // //110
 // //111-119
 // //120
@@ -80,5 +79,8 @@ document.write(hundredName[1] + "<br />");
 
 // // thousand
 // document.write(thousandName[1]);
+for (let i=1; i<=9; i++){
+console.log(hundredName[i]+tenName[i-1]+oneName[i]);
+}
 
 
